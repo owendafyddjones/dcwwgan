@@ -13,17 +13,11 @@ import os
 #___#**Author:**          Thomas Poudevigne\
 #___#**Date Created:**    21 July 2021\
 #___#**Reviewer:**        TBC\
-#___#**Devops Feature:**  #[don't know]\
-#___#**Devops Backlog:**  #[don't know]\
-#___#**Devops Task:**     #[don't know]\
-#___#**Devops Repo:**     ganrunner\
-#___#**MARS:**            "[don't know]"
 #___#
+#___#Description
+#___#This script is the interface between the GAN software and the user. - what is the "the GAN software"? be specific
+#___#It pre-processes data, trains it and creates synthetic datasets. - surely "the GAN software" does this, not the interface
 #___#
-#____#Description
-#____#This script is the interface between the GAN software and the user.
-#____#It pre-processes data, trains it and creates synthetic datasets.
-#____#
 #___#---------------------------------------------------------------------------
 
 #-------------------------------------------------------------------------------
@@ -35,6 +29,19 @@ import os
 #_#Author Notes\
 #_# This function reads parameters and prepares the GAN
 #_#Reviewer Notes\
+#_# this section is doing more than inputting parameters!
+#_# list the parameters required
+#_# by prepares the GAN do you mean it runs some other software?
+#_# what is the result? what files are created and what do they contain?
+#_# make sure there is a space after any comma; remove extra whitespace at the start of comment strings
+#_# combine the following with the Description above
+    """
+    This is the code for "MaWGAN: a Generative Adversarial Network to create synthetic
+    data from datasets with missing data", this script is the interface of the MaGAN
+    It pre-processes data, trains gan and creates synthetic datasets.
+    """
+#_# don't comment every line as in second have of part 1., it actually makes the code harder to read. 
+#_# try collecting some of these comments into a single block
 
 #_# Steps\
 #_# Document all the parameters needed for the GAN
@@ -159,6 +166,7 @@ def main(
 #_#Author Notes\
 #_# This function unpacks the parameters into individual variables
 #_#Reviewer Notes\
+#_# which parameters, which variables?
 
 #_# Steps\
 #_# Outputs the parameters into individual variables
